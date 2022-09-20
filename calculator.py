@@ -3,6 +3,7 @@
 An extremely buggy Python math library . . .
 """
 
+# Should this function even be here?
 def poorly_implemented_function_with_no_close_parenthesis(
 
 def addition(x: int, y: int) -> int:
