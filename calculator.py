@@ -47,6 +47,6 @@ def division(x: int, y: int) -> int:
         y (str): The second parameter.
 
     Returns:
-        int: The multiple of `x` and `y`.
+        int: `x` divided by `y`.
     """
     return x // y
