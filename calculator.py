@@ -48,4 +48,4 @@ def division(x: int, y: int) -> int:
     Returns:
         int: `x` divided by `y`.
     """
-    return x // y
+    return x / y
