@@ -5,7 +5,7 @@ All functions in that file are broken.
 There are also some syntax issues to fix . . .
 
 **Steps:**
-1. Fork the repo.
+1. Fork the repo (if you don't know how to fork a repo, see this [page](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)).
 2. Edit [calculator.py](calculator.py) to fix the syntax and correctness issues in the code.
 3. Push and hope that you see a little green checkmark (which indicates that the tests pass).
 4. Repeat as necessary until all tests pass and the linter succeeds.
