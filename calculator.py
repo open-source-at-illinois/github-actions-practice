@@ -1,11 +1,3 @@
-
-"""
-An extremely buggy Python math library . . .
-"""
-
-# Should this function even be here?
-def poorly_implemented_function_with_no_close_parenthesis(
-
 def addition(x: int, y: int) -> int:
     """
     Adds two numbers.
@@ -19,7 +11,7 @@ def addition(x: int, y: int) -> int:
     Returns:
         int: The sum of `x` and `y`.
     """
-    return x * y
+    return x + y
 
 def multiplication(x: int, y: int) -> int:
     """
@@ -34,7 +26,7 @@ def multiplication(x: int, y: int) -> int:
     Returns:
         int: The multiple of `x` and `y`.
     """
-    return x + y
+    return x * y
 
 def division(x: int, y: int) -> int:
     """
@@ -49,4 +41,5 @@ def division(x: int, y: int) -> int:
     Returns:
         int: `x` divided by `y`.
     """
+    if x == 0: return 0
     return x // y
