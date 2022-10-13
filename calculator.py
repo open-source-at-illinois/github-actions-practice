@@ -40,7 +40,7 @@ def division(x: int, y: int) -> int:
     """
     Divides two numbers.
 
-    Note: `//` is the *integer* division operator in Python.
+    Note: `/` is the *integer* division operator in Python.
 
     Args:
         x (int): The first parameter.
@@ -49,4 +49,4 @@ def division(x: int, y: int) -> int:
     Returns:
         int: `x` divided by `y`.
     """
-    return x // y
+    return x / y
