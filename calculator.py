@@ -19,7 +19,7 @@ def addition(x: int, y: int) -> int:
     Returns:
         int: The sum of `x` and `y`.
     """
-    return x * y
+    return x + y
 
 def multiplication(x: int, y: int) -> int:
     """
@@ -34,7 +34,7 @@ def multiplication(x: int, y: int) -> int:
     Returns:
         int: The multiple of `x` and `y`.
     """
-    return x + y
+    return x * y
 
 def division(x: int, y: int) -> int:
     """
