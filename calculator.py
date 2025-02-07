@@ -48,4 +48,6 @@ def division(x: int, y: int) -> int:
     Returns:
         int: `x` divided by `y`.
     """
+    if y == 0:
+        raise ValueError("You can not divide by 0"
     return x // y
