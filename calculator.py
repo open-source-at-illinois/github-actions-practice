@@ -30,18 +30,18 @@ def multiplication(x: int, y: int) -> int:
 
 def division(x: int, y: int) -> float:
     """
-    Divides two numbers using integer division.
+    Divides two numbers.
 
     Args:
         x (int): The first parameter.
         y (int): The second parameter.
 
     Returns:
-        int: `x` divided by `y` (integer division).
+        float: The result of `x` divided by `y`.
 
     Raises:
         ValueError: If `y` is zero.
     """
     if y == 0:
         raise ValueError("Cannot divide by zero")
-    return x // y
+    return x / y  # Floating-point division
