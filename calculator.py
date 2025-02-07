@@ -28,7 +28,7 @@ def multiplication(x: int, y: int) -> int:
     """
     return x * y
 
-def division(x: int, y: int) -> int:
+def division(x: int, y: int) -> float:
     """
     Divides two numbers using integer division.
 
