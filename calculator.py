@@ -35,7 +35,7 @@ def multiplication(x: int, y: int) -> int:
     """
     return x * y
 
-def division(x: int, y: int) -> int:
+def division(x: int, y: int) -> float:
     """
     Multiplies two numbers.
 
@@ -48,4 +48,4 @@ def division(x: int, y: int) -> int:
     Returns:
         int: `x` divided by `y`.
     """
-    return x // y
+    return x / y
