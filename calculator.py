@@ -34,7 +34,7 @@ def multiplication(x: int, y: int) -> int:
     Returns:
         int: The multiple of `x` and `y`.
     """
-    return x + y
+    return x * y
 
 def division(x: int, y: int) -> int:
     """
